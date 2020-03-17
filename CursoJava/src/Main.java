@@ -1,14 +1,16 @@
-import java.util.Locale;
+
+import java.util.Scanner;
 
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("Hello World");
-		double f = 2.34;
+		Scanner sc = new Scanner(System.in);
 		
-		System.out.println(f);
+		String x;
+		x = sc.next();
+		System.out.println("voce digitou " + x);
 		
-		Locale.setDefault(Locale.US); //criando variavel do tipo cultura US
+		sc.close();
 	}
 
 }
