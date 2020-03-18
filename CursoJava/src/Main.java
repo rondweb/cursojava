@@ -8,9 +8,21 @@ public class Main {
 		
 		String x;
 		x = sc.next();
-		System.out.println("voce digitou " + x);
+		System.out.println("voce digitou string " + x);
 		
-		sc.close();
+		double d;
+		d = sc.nextDouble();
+		System.out.println("voce digitou double " + d);
+		
+		int i;
+		i = sc.nextInt();
+		System.out.println("voce digitou integer " + i);
+		
+		char ch;
+		ch = sc.next().charAt(0);
+		System.out.println("voce digitou char " + ch);
+		
+		sc.close(); //tipos de dados
 	}
 
 }
